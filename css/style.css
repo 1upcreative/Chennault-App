@@ -1,0 +1,293 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* Page Content Layout */
+.ui-content {
+	background: none;
+	height: auto;
+	margin: 0;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+/* Custom Menu Layout */	
+#page .menu-01 {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	padding: 0;
+	width: 90%;
+}
+/* Page Header Layout Container */
+#page .headerContainer,
+#visitor-info .headerContainer,
+#maps .headerContainer,
+#exhibits .headerContainer,
+#tours .headerContainer,
+#events .headerContainer,
+#shop .headerContainer,
+#connect .headerContainer {
+	width: auto;
+	height: 80px;
+	margin: 0;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+/* Page Header Home Title (ONLY ON HOME MENU) */
+#page .home-title-01 {
+	width: auto;
+	margin: 0 12% 0 7%;
+	padding: 0;
+	text-align: left;
+	float: left;
+}
+/* Page Header Top Left DIV */
+#page .top-left,
+#visitor-info .top-left,
+#maps .top-left,
+#exhibits .top-left,
+#tours .top-left,
+#events .top-left,
+#shop .top-left,
+#connect .top-left {
+	width: 29.16666%;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-top: 20px;
+	padding-right: 0;
+	padding-left: 18px;
+	padding-bottom: 0;
+	text-align: left;
+	float: left;
+	}
+		/* Page Header Text Styles */
+		#page .date-style_01,
+		#visitor-info .date-style_01,
+		#maps .date-style_01,
+		#exhibits .date-style_01,
+		#tours .date-style_01,
+		#events .date-style_01,
+		#shop .date-style_01,
+		#connect .date-style_01{
+				font-family: open-sans-condensed;
+				font-size: 16px;
+				color: #FFFFFF;
+				margin: 0;
+				padding: 0;
+			}
+/* Page Header Center Layout */
+#page .top-center,
+#visitor-info .top-center,
+#maps .top-center,
+#exhibits .top-center,
+#tours .top-center,
+#events .top-center,
+#shop .top-center,
+#connect .top-center {
+	width: 40%;
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+	float: left;
+	}
+/* Page Header Top Right DIV */
+#page .top-right,
+#visitor-info .top-right,
+#maps .top-right,
+#exhibits .top-right,
+#tours .top-right,
+#events .top-right,
+#shop .top-right,
+#connect .top-right {
+	width: 21%;
+	height: auto;
+	margin: 0;
+	float: left;
+	text-align: center;
+	}
+#page .title-01 {
+	font-family: open-sans-condensed;
+	font-size: 18px;
+	color: #C3C3C3;
+	padding-top: 35px;
+	padding-left: 0;
+	}
+#visitor-info .title-02,
+#maps .title-02,
+#exhibits .title-02,
+#tours .title-02,
+#events .title-02,
+#shop .title-02,
+#connect .title-02 {
+	font-family: open-sans-condensed;
+	font-size: 18px;
+	color: rgba(242,242,242,1.00);
+	padding-top: 35px;
+	text-align: right;
+	}
+
+#visitor-info .extra-info-BG,
+#maps .extra-info-BG,
+#exhibits .extra-info-BG,
+#tours .extra-info-BG,
+#events .extra-info-BG,
+#shop .extra-info-BG,
+#connect .extra-info-BG {
+	background: rgba(0,0,0,0.55);
+	font-family: open-sans;
+	color: #FFF;
+	font-size: 14px;
+	clear: both;
+	width: 90%;
+	margin: auto;
+	line-height: 25px;
+}
+/* Menu Buttons Design */
+#page .visitor-BTN {
+	background: rgba(170,134,61,0.65) url(../Buttons/Visitor-Info-BTN_v01.png) bottom center no-repeat;
+	width: 100%;
+	height: 50px;
+	margin: 3px;
+	border: 2px solid #FFF;
+	border-radius: 6px;
+	display: block;
+	float: left;
+}
+#page .buttons {
+	width: 100%;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #000;
+	border-radius: 6px;
+	display: block;
+	float: left;
+}
+/* Footer Layout */
+#page .footer-style-01,
+#visitor-info .footer-style-01,
+#maps .footer-style-01,
+#exhibits .footer-style-01, 
+#tours .footer-style-01,
+#events .footer-style-01,
+#shop .footer-style-01,
+#connect .footer-style-01 {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.footer-container-01 {
+	width: auto;
+	font-family: open-sans-condensed;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	margin: auto;
+	padding: 20px 0 20px 0;
+}
+/* Footer Button Design */
+.foot-BTN-01 {
+	width: 75px;
+	height: 60px;
+	border-radius: 0;
+	border-top: 0;
+	border-right: 1px solid #F0F0F0;
+	border-bottom: 0;
+	border-left: 1px solid #F0F0F0;
+	display: block;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+/* Exhibits Filter List */
+#visiter-info .extra-info-BG ui {
+	margin: 0 0 10px 0;
+	padding: 0;
+	height: auto;
+	border: none;	
+}
+#visitor-info .extra-info-BG .ui-li {
+	margin: 5px 0 5px 0;
+	padding: 3px;
+	height: auto;
+  	text-align: center;
+	font-size: 16px;
+	border: none;
+}
+#visitor-info .extra-info-BG .ui-btn-inner {
+	text-align: center;
+	font-size: 18px;
+	color: rgba(232,214,155,1.00);
+	font-weight: 600;
+	margin: 0;
+	
+}
+#visitor-info .extra-info-BG a {
+	text-decoration: none;
+}
+/* Exhibits Filter List */
+.exhibits {
+	background: none;
+}
+
+#exhibits #collapsiblesetForFilter ui {
+	margin: 0 0 10px 0;
+	padding: 0;
+	height: auto;
+	border: none;	
+}
+#exhibits  #collapsiblesetForFilter .ui-li {
+	margin: 5px 0 5px 0;
+	padding: 3px;
+	height: auto;
+  	text-align: center;
+	font-size: 16px;
+	border: none;
+}
+#exhibits #collapsiblesetForFilter .ui-btn-inner {
+	text-align: center;
+	font-size: 18px;
+	color: rgba(232,214,155,1.00);
+	font-weight: 600;
+}
+#exhibits #collapsiblesetForFilter a:link{
+	text-decoration: none;
+    font-size: 16px;
+}
+/* Body Copy Styles and Formatting */
+
+.infoStrong {
+	color: rgba(171,134,61,1.00);
+	font-weight: 600;
+	font-size: 18px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+.contentAutoMargin {
+	width: 100%;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+.contentSize_v01 {
+	margin: auto;
+	width: 90%;
+}
+.buttonNoText {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.autoMarginFix {
+	margin-right: auto;
+	margin-left: auto;
+}

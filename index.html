@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        <link href="css/gold-black.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <link href="css/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+                
+        <link rel="stylesheet" type="text/css" href="themes/v02/icons-36-white.css">
+        <link rel="stylesheet" type="text/css" href="themes/v02/icons-18-white.css">
+                        
+        <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.3.0.min.js" type="text/javascript"></script>
+        
+        
+        <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+        <script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/open-sans:n3:default;open-sans-condensed:n3:default.js" type="text/javascript"></script>
+        
+        <!-- PG Main CSS -->
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        
+        <title>Chennault Aviation and Military Museum App</title>
+
+
+    </head>
+    
+<body>
+
+<!-- Main Menu Page -->
+<div data-role="page" id="page">
+    
+    <!-- Main Menu Page Header -->
+    <div data-role="header" data-position="fixed" class="headerContainer">
+        <div class="home-title-01"><h1 class="title-01">CAMM APP</h1></div>
+        <div class="top-right"><img src="img/cammLogo.png" width="60" height="63" /></div>
+    </div>
+    
+    <!-- Main Menu Page Content -->
+    <div data-role="content" data-theme="a">
+        <ul data-count-theme="a" data-role="listview" data-split-icon="none" data-split-theme="a" data-divider-theme="a" class="menu-01">
+            <li class="buttons" data-icon="false"><a href="#visitor-info" data-transition="flip" data-role="none">Visitor Info</a></li>
+            <li class="buttons" data-icon="false"><a href="#exhibits" data-transition="flip" data-role="none">Exhibits</a></li>
+            <li class="buttons" data-icon="false"><a href="#tours" data-transition="flip" data-role="none">Tours</a></li>
+            <li class="buttons" data-icon="false"><a onclick="window.open('http://chennaultmuseum.org','_blank','location=no','closebuttoncaption=Return');">Events</a></li>
+            <li class="buttons" data-icon="false"><a href="#connect" data-transition="flip" data-role="none">Connect</a></li>
+        </ul>
+    </div>
+    
+    <!-- Main Menu Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#page" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
+        </div>
+    </div>
+</div>
+<!-- End Main Menu Page -->
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+<!-- Visitor Info Page -->
+<div data-role="page" id="visitor-info">
+    
+    <!-- Visitor Info Page Header -->
+    <div data-role="header" data-position="fixed" class="headerContainer">
+        <div class="top-left">
+            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="flip"></a></div>
+        </div>
+        <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
+        <div class="top-right"><h1 class="title-02">Visitor Info</h1></div>
+    </div>
+    
+    <!-- Visitor Info Page Content -->
+    <div data-role="content" data-theme="a">
+        
+        <div data-role="collapsible-set" class="extra-info-BG">
+            <div data-role="collapsible" data-theme="a">
+                <h3>Hours</h3>
+                <span class="infoStrong">Open:</span><br />Tuesday – Saturday<br />9:00am to 4:00pm<br />
+                <span class="infoStrong">Closed:</span><br />Sunday and Monday<br />
+                <span class="infoStrong">Museum Director:</span><br />Nell Calloway<br />(<em>Granddaughter of Gen. Chennault</em>)<br />
+                <span class="infoStrong">Phone:</span><br />(318) 362-5540</p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>Directions</h3>
+                <p><a href="https://www.google.com/maps/place/701+Kansas+Ln,+Monroe,+LA+71203/@32.511484,-92.0547634,17z/data=!3m1!4b1!4m2!3m1!1s0x862e4f5afae602bb:0xee0a4e3313fc0047" onclick="window.open(this.href,'_system'); return false;" data-role="button" data-inline="true">Get Directions</a></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>Admission</h3>
+                <p>ADMISSION IS ALWAYS FREE!</p>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Visitor Info Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#visitor-info" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
+            <a href="#exhibits" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#connect" data-role="button" data-icon="info" data-iconpos="notext" data-transition="flip"></a>
+        </div>
+    </div>
+</div>
+<!-- End Visitor Info Page -->
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Begin Exhibits Page -->
+<div data-role="page" id="exhibits">
+    
+    <!-- Exhibits Page Header -->
+    <div data-role="header" data-position="fixed" class="headerContainer">
+        <div class="top-left">
+            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+        </div>
+        <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
+        <div class="top-right"><h1 class="title-02">Exhibits</h1></div>
+    </div>
+    
+    <!-- Exhibits Page Content -->
+    <div data-role="content" data-theme="a" class="textCenter">
+        
+        
+        <div data-role="collapsible-set" data-filter="true" data-inset="true" id="collapsiblesetForFilter" data-input="#searchForCollapsibleSet" data-theme="a" class="extra-info-BG">
+            
+            <div data-role="collapsible" data-filtertext="James Albert Noe">
+                <h3>James Albert Noe, Sr.</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Army Exhibit Room</li>
+                    <li>World War I</li>
+                    <li>World War II Army</li>
+                    <li>German Artifacts</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="Gus Petterson">
+                <h3>B.A. “Gus” Petterson</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Navy Exhibit Room</li>
+                    <li> World War II</li>
+                    <li> Pearl Harbor</li>
+                    <li>D-Day Exhibit</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="Fred C. Culpepper, Jr.">
+                <h3>Fred C. Culpepper, Jr.</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li> Army Exhibit Room</li>
+                    <li>World War II Army Memorabilia</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="Nelson D. Abell, Jr.">
+                <h3>Nelson D. Abell, Jr.</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Navy Exhibit Room</li>
+                    <li>World War II Memorabilia</li>
+                    <li>Japanese Memorabilia</li>
+                    <li>Japanese Kamikaze Airplane Shards</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="E.D. “Bo” Shaw, Jr.">
+                <h3>E.D. “Bo” Shaw, Jr.</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li> Korean War</li>
+                    <li> Vietnam War</li>
+                    <li>United States and Vietnamese Artifacts</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="Kitty Degree">
+                <h3>Kitty Degree</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Coast Guard</li>
+                    <li>Iraq War</li>
+                    <li>Afghanistan War</li>
+                    <li> Women in the Coast Guard</li>
+                </ul>
+            </div>
+            
+            <div data-role="collapsible" data-filtertext="Gen. Calire L. Chennault">
+                <h3>Gen. Calire L. Chennaulte</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Chennault Exhibit</li>
+                    <li>Chennault Memorabilia</li>
+                    <li>Flying Tigers Memorabilia</li>
+                    <li>Chinese Artifacts</li>
+                    <li>Hump Pilot Painting</li>
+                </ul>
+            </div>
+            <div data-role="collapsible" data-filtertext="Malcome S. Biedenharn">
+                <h3>Malcome S. Biedenharn</h3>
+                <ul data-role="listview" data-inset="false">
+                    <li>Selman Field Navigational School</li>
+                    <li>Personnel Histories of Selman Field</li>
+                    <li>Delta Airlines</li>
+                    <li>Pilots for Patients</li>
+                    <li>Civil Air Patrol</li>
+                    <li>NASA and Space</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+    <!-- Exhibits Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#exhibits" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
+            <a href="#visitor-info" data-icon="arrow-l" data-iconpos="notext" data-role="button" data-transition="flip"></a>
+            <a href="#tours" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#connect" data-role="button" data-icon="info" data-iconpos="notext" data-transition="flip"></a>
+        </div>
+    </div>
+</div>
+<!-- End Exhibits Page -->
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Begin Tours Page -->
+<div data-role="page" id="tours">
+    
+    <!-- Tours Page Header -->
+    <div data-role="header" class="headerContainer">
+        <div class="top-left">
+            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+        </div>
+        <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
+        <div class="top-right"><h1 class="title-02">Tours</h1></div>
+    </div>
+    
+    <!-- Tours Page Content -->
+    <div data-role="content">
+        <center><img src="img/museum.jpg" width="322" height="214" alt=""/></center>
+        <p>Plan a Visit:</p>
+        <p>Hours of Operation: Museum exhibits and the Museum Store are open five days a week, 9:00 am to 4:00 pm.</p>
+        <p>We recommend that you allow a minimum of 2 hours to view exhibits.<br>
+        All venues are closed: New Year's Day, July 4th, Mardi Gras Day, Thanksgiving Day, Christmas Eve and Christmas Day.</p>
+        <p>The Museum is fully accessible to all visitors. A limited number of wheelchairs are provided for use in the Museum at no charge.</p>
+        <p>If you would like to schedule other stops in Northeast Louisiana or view lodging options please visit the Monroe and West Monroe Convention and Visitors Bureau website at http://www.monroe-westmonroe.org/index.cfm.</p>
+    </div>
+    
+    <!-- Tours Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#tours" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
+            <a href="#exhibits" data-icon="arrow-l" data-iconpos="notext" data-role="button" data-transition="flip"></a>
+            <a href="#events" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-transition="flip"></a>
+            <a href="#connect" data-role="button" data-icon="info" data-iconpos="notext" data-transition="flip"></a>
+        </div>
+    </div>
+</div>
+<!-- End Tours Page -->
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Begin Events Page -->
+<div data-role="page" id="events">
+    
+    <!-- Events Page Header -->
+    <div data-role="header" class="headerContainer">
+        <div class="top-left">
+            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+        </div>
+        <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
+        <div class="top-right"><h1 class="title-02">Events</h1></div>
+    </div>
+    
+    <!-- Events Page Content -->
+    <div data-role="content">Content</div>
+    
+    <!-- Events Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="slide"></a>
+            <a href="#events" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
+            <a href="#tours" data-icon="arrow-l" data-iconpos="notext" data-role="button" data-transition="flip"></a>
+            <a href="#connect" data-role="button" data-icon="info" data-iconpos="notext" data-transition="flip"></a>
+        </div>
+    </div>
+</div>
+<!-- End Events Page -->
+
+<!------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- Connect Page -->
+<div data-role="page" id="connect">
+    
+    <!-- Connect Page Header -->
+    <div data-role="header" class="headerContainer">
+        <div class="top-left">
+            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+        </div>
+        <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
+        <div class="top-right"><h1 class="title-02">Connect</h1></div>
+    </div>
+    
+    <!-- Connect Page Content -->
+    <div data-role="content">
+    
+        <button onclick="window.plugins.socialsharing.shareViaFacebook('Message via Facebook', null, null, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})" data-theme="a">message only</button>
+    
+    
+    </div>
+    <!-- Connect Page Footer -->
+    <div data-role="footer" data-position="fixed" class="footer-style-01">
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <a href="#events" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="flip"></a>          
+            <a href="#connect" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>          
+            <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
+        </div>
+    </div>
+</div>
+<!-- End Connect Page -->
+
+<!-- Scripts to Include: Cordova / Index -->
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script type="text/javascript">
+    app.initialize();
+    </script>
+
+
+</body>
+</html>
