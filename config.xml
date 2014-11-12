@@ -68,17 +68,20 @@
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     
     <gap:plugin name="nl.x-services.plugins.socialsharing" />
+     <!-- Set iOS 7+ Status Bar to OFF During App Load -->
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
-    <!-- Set iOS 7+ Status Bar to OFF During App Load -->
         <gap:config-file platform="ios" parent="UIStatusBarHidden">
             <true/>
         </gap:config-file>
         <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance">
             <false/>
         </gap:config-file>
-    
+    <!-- End Status Bar Toggle Off -->    
+    <gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.0" />
+
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
+    
     <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
     <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
     <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
