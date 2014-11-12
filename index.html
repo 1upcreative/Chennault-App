@@ -58,12 +58,11 @@
     
     <!-- Main Menu Page Header -->
     <div data-role="header" data-position="fixed" class="headerContainer">
-        <div class="home-title-01"><h1 class="title-01">CAMM APP</h1></div>
-        <div class="top-right"><img src="img/cammLogo.png" width="60" height="63" /></div>
+        <div class="homeLogo"><img src="img/cammLogo.png" width="60" height="63" /></div>
     </div>
     
     <!-- Main Menu Page Content -->
-    <div data-role="content" data-theme="a">
+    <div data-role="content" data-theme="a" class="contentPadding_v01">
         <ul data-count-theme="a" data-role="listview" data-split-icon="none" data-split-theme="a" data-divider-theme="a" class="menu-01">
             <li class="buttons" data-icon="false"><a href="#visitor-info" data-transition="flip" data-role="none">Visitor Info</a></li>
             <li class="buttons" data-icon="false"><a href="#exhibits" data-transition="flip" data-role="none">Exhibits</a></li>
@@ -89,17 +88,17 @@
     <!-- Visitor Info Page Header -->
     <div data-role="header" data-position="fixed" class="headerContainer">
         <div class="top-left">
-            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="flip"></a></div>
+            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a></div>
         </div>
         <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
         <div class="top-right"><h1 class="title-02">Visitor Info</h1></div>
     </div>
     
     <!-- Visitor Info Page Content -->
-    <div data-role="content" data-theme="a">
+    <div data-role="content" data-theme="a" class="contentPadding_v02">
         
         <div data-role="collapsible-set" class="extra-info-BG">
-            <div data-role="collapsible" data-theme="a">
+            <div data-role="collapsible">
                 <h3>Hours</h3>
                 <span class="infoStrong">Open:</span><br />Tuesday – Saturday<br />9:00am to 4:00pm<br />
                 <span class="infoStrong">Closed:</span><br />Sunday and Monday<br />
@@ -138,14 +137,14 @@
     <!-- Exhibits Page Header -->
     <div data-role="header" data-position="fixed" class="headerContainer">
         <div class="top-left">
-            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a></div>
         </div>
         <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
         <div class="top-right"><h1 class="title-02">Exhibits</h1></div>
     </div>
     
     <!-- Exhibits Page Content -->
-    <div data-role="content" data-theme="a" class="textCenter">
+    <div data-role="content" data-theme="a" class="contentPadding_v02">
         
         
         <div data-role="collapsible-set" data-filter="true" data-inset="true" id="collapsiblesetForFilter" data-input="#searchForCollapsibleSet" data-theme="a" class="extra-info-BG">
@@ -251,23 +250,25 @@
 <div data-role="page" id="tours">
     
     <!-- Tours Page Header -->
-    <div data-role="header" class="headerContainer">
+    <div data-role="header" data-position="fixed" class="headerContainer">
         <div class="top-left">
-            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+             <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a></div>
         </div>
         <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
         <div class="top-right"><h1 class="title-02">Tours</h1></div>
     </div>
     
     <!-- Tours Page Content -->
-    <div data-role="content">
+    <div data-role="content" class="contentPadding_v03">
         <center><img src="img/museum.jpg" width="322" height="214" alt=""/></center>
-        <p>Plan a Visit:</p>
-        <p>Hours of Operation: Museum exhibits and the Museum Store are open five days a week, 9:00 am to 4:00 pm.</p>
-        <p>We recommend that you allow a minimum of 2 hours to view exhibits.<br>
-        All venues are closed: New Year's Day, July 4th, Mardi Gras Day, Thanksgiving Day, Christmas Eve and Christmas Day.</p>
-        <p>The Museum is fully accessible to all visitors. A limited number of wheelchairs are provided for use in the Museum at no charge.</p>
-        <p>If you would like to schedule other stops in Northeast Louisiana or view lodging options please visit the Monroe and West Monroe Convention and Visitors Bureau website at http://www.monroe-westmonroe.org/index.cfm.</p>
+        <div class="contentPadding_v04">
+            <p>Plan a Visit:</p>
+            <p>Hours of Operation: Museum exhibits and the Museum Store are open five days a week, 9:00 am to 4:00 pm.</p>
+            <p>We recommend that you allow a minimum of 2 hours to view exhibits.<br>
+            All venues are closed: New Year's Day, July 4th, Mardi Gras Day, Thanksgiving Day, Christmas Eve and Christmas Day.</p>
+            <p>The Museum is fully accessible to all visitors. A limited number of wheelchairs are provided for use in the Museum at no charge.</p>
+            <p>If you would like to schedule other stops in Northeast Louisiana or view lodging options please visit the Monroe and West Monroe Convention and Visitors Bureau website at http://www.monroe-westmonroe.org/index.cfm.</p>
+        </div>
     </div>
     
     <!-- Tours Page Footer -->
@@ -289,16 +290,19 @@
 <div data-role="page" id="events">
     
     <!-- Events Page Header -->
-    <div data-role="header" class="headerContainer">
+    <div data-role="header" data-position="fixed" class="headerContainer">
         <div class="top-left">
-            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a></div>
         </div>
         <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
         <div class="top-right"><h1 class="title-02">Events</h1></div>
     </div>
     
     <!-- Events Page Content -->
-    <div data-role="content">Content</div>
+    <div data-role="content" class="contentPadding_v05">
+        <p>Content</p>
+
+    </div>
     
     <!-- Events Page Footer -->
     <div data-role="footer" data-position="fixed" class="footer-style-01">
@@ -318,19 +322,23 @@
 <div data-role="page" id="connect">
     
     <!-- Connect Page Header -->
-    <div data-role="header" class="headerContainer">
+    <div data-role="header" data-position="fixed" class="headerContainer">
         <div class="top-left">
-            <div data-role="fieldcontain"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip">Button</a></div>
+            <div data-role="controlgroup" data-type="horizontal"><a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a></div>
         </div>
         <div class="top-center"><img src="img/cammLogo.png" width="60" height="63" alt="Chennault Logo"/></div>
         <div class="top-right"><h1 class="title-02">Connect</h1></div>
     </div>
     
     <!-- Connect Page Content -->
+         
     <div data-role="content">
     
-        <button onclick="window.plugins.socialsharing.shareViaFacebook('Message via Facebook', null, null, function() {console.log('share ok')}, function(errormsg){alert(errormsg)})" data-theme="a">message only</button>
-    
+   <div id="topLayout">adf</div>
+
+        <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
+            <button onclick="window.plugins.socialsharing.shareViaFacebookWithPasteMessageHint('Message via Facebook', null /* img */, null /* url */, 'Share!', function() {console.log('share ok')}, function(errormsg){alert(errormsg)})" data-icon="arrow-u"  data-theme="a">Facebook</button><button onclick="window.plugins.socialsharing.shareViaTwitter('Message via Twitter')" data-icon="arrow-u"  data-theme="a">Twitter</button>
+        </div>
     
     </div>
     <!-- Connect Page Footer -->
