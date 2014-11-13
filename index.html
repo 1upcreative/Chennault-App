@@ -64,7 +64,7 @@
             <li class="buttons" data-icon="false"><a href="#visitor-info" data-transition="flip" data-role="none">Visitor Info</a></li>
             <li class="buttons" data-icon="false"><a href="#exhibits" data-transition="flip" data-role="none">Exhibits</a></li>
             <li class="buttons" data-icon="false"><a href="#tours" data-transition="flip" data-role="none">Tours</a></li>
-            <li class="buttons" data-icon="false"><a onclick="window.plugins.ChildBrowser.showWebPage('http://www.chennaultmuseum.org',{showNavigationBar: true});">Events</a></li>
+            <li class="buttons" data-icon="false"><a onclick="window.plugins.ChildBrowser.showWebPage('http://www.chennaultmuseum.org/phone/mobile-app-events.html',{showNavigationBar: true});">Events</a></li>
             <li class="buttons" data-icon="false"><a href="#connect" data-transition="flip" data-role="none">Connect</a></li>
         </ul>
     </div>
@@ -92,8 +92,9 @@
     </div>
     
     <!-- Visitor Info Page Content -->
-    <div data-role="content" data-theme="a" class="contentPadding_v02">
-        
+    <div data-role="content" data-theme="a">
+        <div id="topLayout" class="connectBanner"></div>
+
         <div data-role="collapsible-set" class="extra-info-BG">
             <div data-role="collapsible">
                 <h3>Hours</h3>
@@ -260,11 +261,11 @@
         <center><img src="img/museum.jpg" width="322" height="214" alt=""/></center>
         <div class="contentPadding_v04">
             <p>Plan a Visit:</p>
-            <p>Hours of Operation: Museum exhibits and the Museum Store are open five days a week, 9:00 am to 4:00 pm.</p>
+            <p>Hours of Operation: Museum exhibits and the Museum Store are open five days a week, <b>9:00am</b> to <b>4:00pm</b>.</p>
             <p>We recommend that you allow a minimum of 2 hours to view exhibits.<br>
             All venues are closed: New Year's Day, July 4th, Mardi Gras Day, Thanksgiving Day, Christmas Eve and Christmas Day.</p>
             <p>The Museum is fully accessible to all visitors. A limited number of wheelchairs are provided for use in the Museum at no charge.</p>
-            <p>If you would like to schedule other stops in Northeast Louisiana or view lodging options please visit the Monroe and West Monroe Convention and Visitors Bureau website at http://www.monroe-westmonroe.org/index.cfm.</p>
+            <p>If you would like to schedule other stops in Northeast Louisiana or view lodging options please visit the Monroe and West Monroe Convention Visitor's Bureau Website here: <a onclick="window.plugins.ChildBrowser.showWebPage('http://www.monroe-westmonroe.org/index.cfm.',{showNavigationBar: true});" data-type="horizontal" data-role="button" data-icon="arrow-r" target="_blank" data-theme="a">Visit Website</a></p>
         </div>
     </div>
     
