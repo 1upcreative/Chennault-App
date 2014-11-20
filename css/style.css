@@ -328,10 +328,10 @@
 }
 
 /* Custom Text */
-.yellowBold {
+.blackBold {
 	font-family: open-sans-condensed;
 	font-size: 18px;
-	color: #C99E42;
+	color: #000;
 	font-weight: 1200;
 }
 .noticeSmall {

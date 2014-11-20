@@ -92,9 +92,7 @@
     </div>
     
     <!-- Visitor Info Page Content -->
-    <div data-role="content" data-theme="a">
-        <div id="topLayout" class="connectBanner"></div>
-
+    <div data-role="content" data-theme="a" class="contentPadding_v02">
         <div data-role="collapsible-set" class="extra-info-BG">
             <div data-role="collapsible">
                 <h3>Hours</h3>
@@ -275,7 +273,7 @@
             <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
             <a href="#tours" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>
             <a href="#exhibits" data-icon="arrow-l" data-iconpos="notext" data-role="button" data-transition="flip"></a>
-            <a href="#events" data-role="button" data-icon="arrow-r" data-iconpos="notext" data-transition="flip"></a>
+            <a data-role="button" data-icon="arrow-r" data-iconpos="notext" onclick="window.plugins.ChildBrowser.showWebPage('http://www.chennaultmuseum.org/phone/mobile-app-events.html',{showNavigationBar: true});"></a>
             <a href="#connect" data-role="button" data-icon="info" data-iconpos="notext" data-transition="flip"></a>
         </div>
     </div>
@@ -330,10 +328,8 @@
     
     <!-- Connect Page Content -->
          
-    <div data-role="content">
+    <div data-role="content" class="contentPadding_v02">
     
-   <div id="topLayout" class="connectBanner"></div>
-
         <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
             <a onclick="window.plugin.email.open({to:['tshlosman@chennaultmuseum.org'],subject:'Chennault Aviation & Military Museum: Mobile App Email',body:'Your Content Here',isHtml:true});" data-role="button" data-icon="info"  data-theme="a">Email</a><button onclick="window.plugins.socialsharing.shareViaFacebookWithPasteMessageHint('Message via Facebook', null /* img */, null /* url */, 'Share!', function() {console.log('share ok')}, function(errormsg){alert(errormsg)})" data-icon="arrow-u"  data-theme="a">FB Post</button><button onclick="window.plugins.socialsharing.shareViaTwitter('Message via Twitter')" data-icon="arrow-u"  data-theme="a">Tweet</button>
         </div>
@@ -341,8 +337,8 @@
        <div class="contentPadding_v05">
             <p class="dottedBottomBlack">Please, use the Email / FB Post / Tweet buttons to share on social media!<br />
             <span class="noticeSmall">Notice: You must have the Facebook App, Twitter App, and an Email set up on your smart phone to use the above quick-buttons.</span></p>
-            <p><span class="yellowBold">T:</span> <a href="tel:+13182678584">(318) 362-5540</a> <i>Tap # to Call</i></p>
-            <p><span class="yellowBold">E:</span> nell.callloway@sos.louisiana.gov</p>
+            <p><span class="blackBold">T:</span> <a href="tel:+13182678584">(318) 362-5540</a> <i>Tap # to Call</i></p>
+            <p><span class="blackBold">E:</span> nell.callloway@sos.louisiana.gov</p>
             <p>Please, let us know your thoughts or send us any questions / concerns that you may have about our mobile app and the museum!</p>
 
             
@@ -351,7 +347,7 @@
     <!-- Connect Page Footer -->
     <div data-role="footer" data-position="fixed" class="footer-style-01">
         <div data-role="controlgroup" data-type="horizontal" class="footer-container-01">
-            <a href="#events" data-role="button" data-icon="arrow-l" data-iconpos="notext" data-transition="flip"></a>          
+            <a data-role="button" data-icon="arrow-l" data-iconpos="notext" onclick="window.plugins.ChildBrowser.showWebPage('http://www.chennaultmuseum.org/phone/mobile-app-events.html',{showNavigationBar: true});"></a>          
             <a href="#connect" data-ajax="false" data-role="button" data-icon="arrow-u" data-iconpos="notext"></a>          
             <a href="#page" data-role="button" data-icon="home" data-iconpos="notext" data-transition="flip"></a>
         </div>
